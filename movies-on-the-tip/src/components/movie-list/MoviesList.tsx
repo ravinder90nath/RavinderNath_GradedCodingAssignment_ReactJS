@@ -189,7 +189,7 @@ class MoviesList extends Component<Props, State> {
                         <Toast 
                             onClose={() => this.setState({show: false})} 
                             show={this.state.show} 
-                            delay={111700} 
+                            delay={1500} 
                             autohide
                         >
                             <Toast.Header>
